@@ -3,6 +3,8 @@ Data code and instructions to reproduce the findings for the paper "Religious ch
 
 **python code is python2**
 
+**raw WEVS data too large to upload to this repository**
+
 ## directories
 data - data files required for analysis
 
