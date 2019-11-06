@@ -5,7 +5,7 @@ Data code and instructions to reproduce the findings for the paper "Religious ch
 
 **raw WEVS data too large to upload to this repository**
 
-## directories
+## Directories
 data - data files required for analysis
 
 R - all R scripts
@@ -29,7 +29,7 @@ Run "2create_period_generation_matrices" to split the representative samples for
 
 Run "4test_generational_trends_are_period_independent" to use model comparison to test if birth decade differences are independent of period effects.
 
-## run time-lagged linear regression model
+## Run time-lagged linear regression model
 
 Run the time series analysis and save results using "5multi_level_granger_causality".
 
