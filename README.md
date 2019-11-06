@@ -5,7 +5,9 @@ Data code and instructions to reproduce the findings for the paper "Religious ch
 
 ## directories
 data - data files required for analysis
+
 R - all R scripts
+
 python - all Python scripts
 
 ## Get raw data
@@ -21,9 +23,9 @@ Run the script "1construct_variables" to use EFA to learn nine cultural factors 
 
 ## Show that birth decade differences are independent of time period using model comparison
 
-Run "2create_period_generation_matrices" to split the representative samples for each nation by birth decade and time period for the nine cultural factors. Then "3period_corrected_generational_trends" creates birth decade time series by averaging over all time periods and using linear imputation to mitigate missing time period bias. Run "4test_generational_trends_are_period_independent" to use model comparison to test if birth decade differences are independent of period effects.
+Run "2create_period_generation_matrices" to split the representative samples for each nation by birth decade and time period for the nine cultural factors. Then "3period_corrected_generational_trends" creates birth decade time series by averaging over all time periods and using linear imputation to mitigate missing time period bias. 
 
-converts all the nation matrices into a dataframe to be used in the model comparison. Then run "kfoldModelComparison.R" which compares hierarchical linear regressions of increasing complexity, testing whether birth decade differences are independent of time period.
+Run "4test_generational_trends_are_period_independent" to use model comparison to test if birth decade differences are independent of period effects.
 
 ## run time-lagged linear regression model
 
