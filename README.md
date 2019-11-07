@@ -1,6 +1,8 @@
 # Religious change preceded economic change in the 20th century
 Data code and instructions to reproduce the findings for the paper "Religious change preceded economic change in the 20th century". Each of the numbered scripts in the root directory run a series of R and Python scripts that runs a chunk of the analysis in the paper.
 
+Please cite: Ruck  D.J., Bentley  R.A. and Lawson  D.J. (2018). Religious change preceded economic change in the 20th century. Science Advances, 4(7).
+
 **python code is python2**
 
 **raw WEVS data too large to upload to this repository**
